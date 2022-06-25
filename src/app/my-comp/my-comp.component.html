@@ -1,0 +1,9 @@
+<p>Fixed template works</p>
+
+<p *ngIf="true">Conditional template works</p>
+
+<app-my-comp-dynamic [template]="template"></app-my-comp-dynamic>
+
+<ng-template #template>
+  <div>Hello World from dynamic template</div>
+</ng-template>
