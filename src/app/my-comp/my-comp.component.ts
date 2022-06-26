@@ -8,4 +8,6 @@ import { ChangeDetectionStrategy, Component, Input, TemplateRef } from '@angular
 })
 export class MyCompComponent {
   @Input() template!: TemplateRef<any>;
+
+  // test
 }
